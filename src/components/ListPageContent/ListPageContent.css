@@ -1,0 +1,12 @@
+.flexMain {
+    height: 100%;
+    padding: 50px 0;
+    overflow: auto
+}
+.linkStyle {
+    width: 100%;
+    display: block;
+}
+.buttonStyle {
+    width: 500px;
+}
