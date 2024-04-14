@@ -1,0 +1,1 @@
+const addType = "ADD_TYPE";
