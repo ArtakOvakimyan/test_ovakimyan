@@ -13,7 +13,10 @@ const slice = createSlice({
     initialState: initState,
     reducers: {
         add: (state, action) => {
-            state.value.push(action.payload)
+            state.value.push(action.payload);
+            if (state.value.length > 20) {
+                state.value.shift();
+            }
         }
     }
 })
